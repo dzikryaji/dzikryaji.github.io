@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+a{
+    text-emphasis: none;
+    text-decoration: none;
+}
+
+body{
+    padding-bottom: 200px;
+    margin: 0;
+    color: blueviolet;
+    background-color: #1d1d1e;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 300;
+}
+
+nav {
+    background-color: white;
+    font-weight: 500;
+    position: sticky;
+    top: 0px;
+    padding: 25px 0px;
+}
+
+nav .navbar{
+    display: flex;
+    justify-content: center;
+}
+
+
+nav .navbar .nav_item{
+    margin: 0px 20px;
+    color: #1d1d1e;
+    cursor: pointer;
+}
+
+nav .navbar .nav_item:hover{
+    color: blueviolet;
+}
+
+.home {
+    height: 650px;
+    color: white;
+    font-size: 70px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.home .intro {
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+.home .name {
+    font-weight: 700;
+}
+
+.about {
+    display: flex;
+    align-items: flex-start;
+    margin: 100px 0px;
+}
+
+.about .imgContainer{
+    text-align: center;
+    flex: 1;
+    margin-right: 40px;
+}
+
+.about img {
+    width: 60%;
+}
+
+.about .descriptionContainer{
+    font-size: 25px;
+    flex: 1;
+}
+
+.about .descriptionContainer .title {
+    margin-bottom: 30px;
+    font-weight: 500;
+    width: 70%;
+}
+
+.about .descriptionContainer .description {
+    font-weight: 300;
+    text-align: justify;
+    width: 75%;
+}
+
+.education{
+    text-align: center;
+    margin: 100px 35px;
+}
+
+.education .title{
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+.education .container{
+    display: flex;
+    margin-top: 50px;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.education .container .left{
+    text-align: left;
+    flex: 3;
+}
+
+.education .container .right{
+    text-align: right;
+    font-weight: 500;
+    flex: 2;
+    color: blueviolet;
+}
+
+.skills {
+    font-size: 35px;
+    text-align: center;
+}
+
+.skills .title{
+    font-weight: 500;
+    margin: 50px;
+}
+
+
+.skills img{
+    height: 90px;
+    margin: 40px;
+}
+
+.contact {
+    font-size: 35px;
+    text-align: center;
+}
+
+.contact .title{
+    font-weight: 500;
+    margin: 50px;
+}
+
+.contact .contactContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.contact .contactInfo{
+    height: 90px;
+    width: 90px;
+    margin: 50px;
+    display: flex;
+    background-color: white;
+    border-radius: 45px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .logo {
+    color: blueviolet;
+}
