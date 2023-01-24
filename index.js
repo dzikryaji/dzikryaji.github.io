@@ -1,1 +1,1 @@
-window.confirm("masih belom kelar")
+window.alert("masih belom kelar");
