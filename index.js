@@ -1,1 +1,1 @@
-window.confirm("masih belom kelar")
+// window.confirm("masih belom kelar")

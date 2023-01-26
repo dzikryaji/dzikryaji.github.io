@@ -1,169 +1,180 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
-
-a{
+*{
     text-emphasis: none;
     text-decoration: none;
-}
-
-body{
-    padding-bottom: 200px;
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
     color: blueviolet;
-    background-color: #1d1d1e;
     font-family: 'Roboto', sans-serif;
     color: white;
+}
+body{
+    background-color: #1d1d1e;
+}
+section {
+    height: 100vh;
+    display: flex;
+    margin: 0px 60px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    font-size: 5rem;
+    font-weight: 700;
+}
+h2 {
+    font-size: 5rem;
     font-weight: 300;
 }
-
+h3 {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+h4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    width: 75%;
+}
+.title {
+    margin: 25px 0px;
+}
 nav {
     background-color: white;
-    font-weight: 500;
     position: sticky;
     top: 0px;
     padding: 25px 0px;
-}
-
-nav .navbar{
     display: flex;
     justify-content: center;
+    z-index: 2000;
 }
-
-
-nav .navbar .nav_item{
+nav .nav_item{
     margin: 0px 20px;
     color: #1d1d1e;
     cursor: pointer;
 }
-
-nav .navbar .nav_item:hover{
+nav .nav_item:hover{
     color: blueviolet;
 }
+.waveContainer .wave {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(images/wave.png);
+    background-size: 1000px 100px;
+}
 
-.home {
-    height: 650px;
-    color: white;
-    font-size: 70px;
+.waveContainer .wave.wave1{
+    animation: animate 30s linear infinite;
+    z-index: 1000;
+    opacity: 1;
+    animation-delay: 0s;
+    top: 100;
+}
+
+.waveContainer .wave.wave2{
+    animation: animate2 15s linear infinite;
+    z-index: 999;
+    opacity: 0.5;
+    animation-delay: -5s;
+    top: 110px;
+}
+
+.waveContainer .wave.wave3{
+    animation: animate 20s linear infinite;
+    z-index: 998;
+    opacity: 0.2;
+    animation-delay: -2s;
+    top: 115px;
+}
+
+.waveContainer .wave.wave4{
+    animation: animate2 25s linear infinite;
+    z-index: 997;
+    opacity: 0.7;
+    animation-delay: -7s;
+    top: 120px;
+}
+
+@keyframes animate{
+    0%{
+        background-position-x: 0;
+    }
+    100%{
+        background-position-x: 1000px;
+    }
+}
+
+@keyframes animate2{
+    0%{
+        background-position-x: 0;
+    }
+    100%{
+        background-position-x: -1000px;
+    }
+}
+#home .contactInfo{
+    height: 90px;
+    width: 90px;
+    margin: 50px;
+    background-color: white;
+    border-radius: 45px;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    display: flex;
 }
-
-.home .intro {
-    font-weight: 100;
-    margin-bottom: 10px;
+#home .logo {
+    color: blueviolet;
+    font-size: 2.6rem;
 }
-
-.home .name {
-    font-weight: 700;
-}
-
-.about {
-    display: flex;
+#about {
+    flex-direction: row;
     align-items: flex-start;
-    margin: 100px 0px;
 }
-
-.about .imgContainer{
+#about .imgContainer{
     text-align: center;
     flex: 1;
     margin-right: 40px;
 }
-
-.about img {
+#about img {
     width: 60%;
 }
-
-.about .descriptionContainer{
-    font-size: 25px;
+#about .descriptionContainer{
     flex: 1;
-}
-
-.about .descriptionContainer .title {
-    margin-bottom: 30px;
-    font-weight: 500;
-    width: 70%;
-}
-
-.about .descriptionContainer .description {
-    font-weight: 300;
     text-align: justify;
-    width: 75%;
 }
-
-.education{
-    text-align: center;
-    margin: 100px 35px;
+#education{
+    justify-content: space-evenly;
 }
-
-.education .title{
-    font-weight: 500;
-    font-size: 35px;
-    margin-bottom: 40px;
+#education .container{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
 }
-
-.education .container{
-    display: flex;
-    margin-top: 50px;
-    font-weight: 300;
-    font-size: 25px;
-}
-
-.education .container .left{
+#education .container .left{
+    flex-direction: column;
     text-align: left;
     flex: 3;
 }
-
-.education .container .right{
+#education .container .right{
     text-align: right;
-    font-weight: 500;
     flex: 2;
     color: blueviolet;
 }
-
-.skills {
-    font-size: 35px;
+#skills {
+    flex-direction: column;
     text-align: center;
 }
-
-.skills .title{
-    font-weight: 500;
-    margin: 50px;
+#skills .imgContainer{
+    flex-direction: row;
 }
-
-
-.skills img{
+#skills img{
     height: 90px;
-    margin: 40px;
-}
-
-.contact {
-    font-size: 35px;
-    text-align: center;
-}
-
-.contact .title{
-    font-weight: 500;
-    margin: 50px;
-}
-
-.contact .contactContainer {
-    display: flex;
-    justify-content: center;
-}
-
-.contact .contactInfo{
-    height: 90px;
-    width: 90px;
-    margin: 50px;
-    display: flex;
-    background-color: white;
-    border-radius: 45px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-
-.contact .logo {
-    color: blueviolet;
+    margin: 50px 30px 0px 30px;
 }

@@ -10,69 +10,22 @@
 </head>
 <body>
     <nav>
-        <div class="navbar">
-            <div class="nav_item">HOME</div>
-            <div class="nav_item">ABOUT</div>
-            <div class="nav_item">EDUCATION</div>
-            <div class="nav_item">SKILLS</div>
-            <div class="nav_item">CONTACT</div>
-        </div>
+        <a href="#home"><h4 class="nav_item">HOME</h4></a>
+        <a href="#about"><h4 class="nav_item">ABOUT</h4></a>
+        <a href="#education"><h4 class="nav_item">EDUCATION</h4></a>
+        <a href="#skills"><h4 class="nav_item">SKILLS</h4></a>
     </nav>
 
-    <div class="home">
-        <div class = "intro">Hello I'm</div>
-        <div class = "name">Dzikry Aji Santoso</div>
+    <div class="waveContainer">
+        <div class="wave wave1"></div>
+        <div class="wave wave2"></div>
+        <div class="wave wave3"></div>
+        <div class="wave wave4"></div>
     </div>
 
-    <div class="about">
-        <div class="imgContainer">
-            <img src="images/profile-picture.JPG" alt="Dzikry Aji Santoso's Photo">
-        </div>
-        <div class="descriptionContainer">
-            <div class="title">About Me</div>
-            <p class="description">My name is Dzikry Aji Santoso. I'm a Information System Student from Brawijaya University. I have interest and currently learning about Front End Web Development and Android Devolopment</p>
-        </div>
-    </div>
-
-    <div class="education">
-        <div class="title">EDUCATION</div>
-        <div class="containers">
-            <div class="container">
-                <div class="left">
-                    <div class="title">
-                        Brawijaya University
-                    </div>
-                    <p class="description">Bachelor of Information System</p>
-                </div>
-                <div class="right">
-                    2021 - Present
-                </div>
-            </div>
-            <div class="container">
-                <div class="left">
-                    <div class="title">
-                        SMAN 1 Kota Bekasi
-                    </div>
-                </div>
-                <div class="right">
-                    2018 - 2021
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="skills">
-        <div class="title">SKILLS</div>
-        <div>Programming Langguages & Tools</div>
-        <img src="images/svg/java-svgrepo-com.svg" alt="java">
-        <img src="images/svg/kotlin-svgrepo-com.svg" alt="kotlin">
-        <img src="images/svg/javascript-svgrepo-com.svg" alt="javascript">
-        <img src="images/svg/html-5-svgrepo-com.svg" alt="html">
-        <img src="images/svg/css-3-svgrepo-com.svg" alt="css">
-    </div>
-
-    <div class="contact">
-        <div class="title">CONTACT</div>
+    <section id="home">
+        <h2>Hello I'm</h2>
+        <h1>Dzikry Aji Santoso</h1>
         <div class="contactContainer">
             <div class="contactInfo">
                 <a href="mailto:dzikryaji07@gmail.com">
@@ -90,8 +43,46 @@
                 </a>
             </div>
         </div>
-    </div>
+    </section>
 
+    <section id="about">
+        <div class="imgContainer">
+            <img src="images/profile-picture.JPG" alt="Dzikry Aji Santoso's Photo">
+        </div>
+        <div class="descriptionContainer">
+            <h3 class="title">About Me</h3>
+            <p class="description">My name is Dzikry Aji Santoso. I'm a Information System Student from Brawijaya University. I have interest and currently learning about Front End Web Development and Android Devolopment</p>
+        </div>
+    </section>
+
+    <section id="education">
+        <h3 class="title">EDUCATION</h3>
+        <div class="container">
+            <div class="left">
+                <h3 class="title">Brawijaya University</h3>
+                <p class="description">Bachelor of Information System</p>
+            </div>
+            <h4 class="right">2021 - Present</h4>
+        </div>
+        <div class="container">
+            <div class="left">
+                <h3 class="title">SMAN 1 Kota Bekasi</h3>
+            </div>
+            <h4 class="right">2018 - 2021</h4>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h3 class="title">SKILLS</h3>
+        <h4>Programming Langguages & Tools</h4>
+        <div class="imgContainer">
+            <img src="images/svg/java-svgrepo-com.svg" alt="java">
+            <img src="images/svg/kotlin-svgrepo-com.svg" alt="kotlin">
+            <img src="images/svg/javascript-svgrepo-com.svg" alt="javascript">
+            <img src="images/svg/html-5-svgrepo-com.svg" alt="html">
+            <img src="images/svg/css-3-svgrepo-com.svg" alt="css">
+        </div>
+    </section>
     <script src="index.js"></script>
 </body>
 </html>
