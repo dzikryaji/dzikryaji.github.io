@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
 *{
     text-emphasis: none;
     text-decoration: none;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     color: blueviolet;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: white;
 }
 body{
@@ -14,17 +14,17 @@ body{
 section {
     height: 100vh;
     display: flex;
-    margin: 0px 60px;
+    margin: 0 4rem;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 700;
 }
 h2 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 300;
 }
 h3 {
@@ -32,33 +32,34 @@ h3 {
     font-weight: 500;
 }
 h4 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 500;
 }
 p {
-    font-size: 1rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
     font-weight: 300;
-    width: 75%;
 }
 .title {
-    margin: 25px 0px;
+    margin: 2rem 0;
 }
 nav {
     background-color: white;
     position: sticky;
-    top: 0px;
-    padding: 25px 0px;
+    top: 0;
+    padding: 1.5rem 0;
     display: flex;
     justify-content: center;
-    z-index: 2000;
+    z-index: 1000;
 }
 nav .nav_item{
-    margin: 0px 20px;
+    margin: 0 1.5rem;
     color: #1d1d1e;
     cursor: pointer;
 }
 nav .nav_item:hover{
     color: blueviolet;
+    transform: scale(1.1);
 }
 .waveContainer .wave {
     position: absolute;
@@ -68,39 +69,34 @@ nav .nav_item:hover{
     background: url(images/wave.png);
     background-size: 1000px 100px;
 }
-
 .waveContainer .wave.wave1{
     animation: animate 30s linear infinite;
-    z-index: 1000;
+    z-index: 0;
     opacity: 1;
     animation-delay: 0s;
     top: 100;
 }
-
 .waveContainer .wave.wave2{
     animation: animate2 15s linear infinite;
-    z-index: 999;
+    z-index: -1;
     opacity: 0.5;
     animation-delay: -5s;
-    top: 110px;
+    top: 110;
 }
-
 .waveContainer .wave.wave3{
     animation: animate 20s linear infinite;
-    z-index: 998;
+    z-index: -2;
     opacity: 0.2;
     animation-delay: -2s;
-    top: 115px;
+    top: 115;
 }
-
 .waveContainer .wave.wave4{
     animation: animate2 25s linear infinite;
-    z-index: 997;
+    z-index: -3;
     opacity: 0.7;
     animation-delay: -7s;
-    top: 120px;
+    top: 120;
 }
-
 @keyframes animate{
     0%{
         background-position-x: 0;
@@ -109,7 +105,6 @@ nav .nav_item:hover{
         background-position-x: 1000px;
     }
 }
-
 @keyframes animate2{
     0%{
         background-position-x: 0;
@@ -119,51 +114,82 @@ nav .nav_item:hover{
     }
 }
 #home .contactInfo{
-    height: 90px;
-    width: 90px;
+    height: 70px;
+    width: 70px;
     margin: 50px;
     background-color: white;
-    border-radius: 45px;
+    border-radius: 35px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    color: blueviolet;
+}
+#home .contactInfo:hover{
+    transform: scale(1.1);
+    background-color: blueviolet;
+    color: white;
 }
 #home .logo {
-    color: blueviolet;
-    font-size: 2rem;
+    color: inherit;
+    font-size: 1.7rem;
+    transform: inherit;
 }
-#about {
-    flex-direction: row;
-    align-items: flex-start;
+#about .aboutContainer{
+    display: flex;
 }
 #about .imgContainer{
     text-align: center;
     flex: 1;
-    margin-right: 40px;
 }
 #about img {
     width: 60%;
+    border-radius: 30px;
 }
 #about .descriptionContainer{
     flex: 1;
-    text-align: justify;
+}
+@media (min-width: 751px) {
+    .aboutContainer {
+        flex-direction: row;
+    }
+    .descriptionContainer{
+        text-align: justify;
+    }
+    p{
+        width: 75%;
+    }
+    #about .title{
+        margin-top: 0;
+    }
+}
+@media (max-width: 750px) {
+    .aboutContainer{
+        flex-direction: column;
+    }
+    .descriptionContainer {
+        text-align: center;
+    }
+    p {
+        width: 100%;
+    }
 }
 #education{
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
 }
 #education .container{
-    flex-direction: column;
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
     width: 100%;
 }
 #education .container .left{
-    flex-direction: column;
     text-align: left;
     flex: 3;
 }
 #education .container .right{
     text-align: right;
+    margin: 2rem 0;
     flex: 2;
     color: blueviolet;
 }
@@ -175,6 +201,6 @@ nav .nav_item:hover{
     flex-direction: row;
 }
 #skills img{
-    height: 90px;
-    margin: 50px 30px 0px 30px;
+    height: 4rem;
+    margin: 3rem 2rem 0 2rem;
 }
