@@ -1,7 +1,7 @@
 import { enablePageScroll, disablePageScroll } from "scroll-lock";
 import { useState } from "react";
-import dzkry from "../assets/dzkry.svg"
 import { navigation } from "../constansts";
+import dzkry from "../assets/dzkry.svg"
 import MenuSvg from "./MenuSvg";
 
 const Header = () => {
@@ -28,7 +28,7 @@ const Header = () => {
     <div className={`fixed top-0 left-0 w-full z-50 border-b border-black`}>
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
         <a className="block w-[12rem] flex-1" href="#home">
-          <img src={dzkry} width={190} height={40} alt="Header Icon" />
+          <img src={dzkry} alt="Header Icon" />
         </a>
 
         <nav className={`${openNavigation ? 'flex' : 'hidden'} fixed top-[5rem] left-0 right-0 bottom-0 bg-n-8 lg:static lg:flex lg:mx-auto lg:bg-transparent`}>
