@@ -1,7 +1,36 @@
+@font-face {
+  font-family: 'NFL';
+  src: url('../src/assets/fonts/NFL\ Chiefs.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body {
+* {
+  scroll-behavior: smooth;
   background-color: #FFFCF8;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  -webkit-scrollbar-width: none;
+}
+
+.fill-current {
+  fill: currentColor;
+}
+
+
+.text-outline {
+  -webkit-text-stroke: 1px black;
+  /* WebKit-based browsers */
+  text-stroke: 1px black;
+  /* Standard */
+  -webkit-text-fill-color: transparent;
+  /* Fill color transparent */
+  text-fill-color: transparent;
+  /* Fill color transparent */
 }
