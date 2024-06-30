@@ -61,7 +61,7 @@ const MotionItem = ({ mousePosition }) => {
         transform: `rotate(${angle}deg)`
       }}
     >
-      <img src={MotionIcon} alt="icon" />
+      <MotionIcon />
     </motion.div>
   );
 };

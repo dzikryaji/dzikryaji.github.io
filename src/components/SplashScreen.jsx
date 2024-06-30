@@ -1,10 +1,10 @@
 import { motion } from "framer-motion"
-import dzkry from "../assets/dzkry.svg"
+import { IconText } from "../assets"
 
 const SplashScreen = () => {
   return (
     <motion.div
-      className="fixed z-[100] bg-[#FFFCF8] flex justify-center items-center top-0 left-0 w-screen h-screen"
+      className="fixed z-[100] bg-bone flex justify-center items-center top-0 left-0 w-screen h-screen"
       initial={{
         opacity: 1
       }}
@@ -16,7 +16,9 @@ const SplashScreen = () => {
         delay: 2,
         duration: 0.5
       }}>
-      <img src={dzkry} alt="Header Icon" className="w-1/2 min-w-[12rem]"/>
+        <div className="w-1/2 min-w-[12rem]">
+          <IconText />
+        </div>
     </motion.div>
   )
 }

@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 export default {
   content: [
     "./index.html",
@@ -6,9 +7,13 @@ export default {
   ],
   theme: {
     extend: {
+      colors:{
+        bone: "#FFFCF8"
+      },
       fontFamily: {
         nfl: ["NFL", 'sans-serif'],
         roboto: ["Roboto", 'sans-serif'],
+        goulong: ["Goulong", 'sans-serif']
       }
     },
   },

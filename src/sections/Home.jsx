@@ -9,14 +9,14 @@ const Home = () => {
   return (
     <section className="lg:p-8 p-4" id="home">
       <motion.h1
-        className="text-4xl md:text-7xl lg:text-8xl font-roboto font-bold uppercase text-outline"
+        className="text-4xl md:text-7xl lg:text-8xl font-goulong uppercase truncate"
         style={{
           x: x
         }}
 
       >DZIKRY AJI SANTOSO</motion.h1>
 
-      <div className="flex lg:flex-row flex-col-reverse mt-4 gap-2 lg:gap-4">
+      <div className="flex lg:flex-row flex-col-reverse lg:mt-4 gap-2 lg:gap-4">
         <motion.div className="lg:flex-[2] rounded-lg overflow-clip">
           <img src={me} alt="Profile photo" className="scale-100 hover:scale-105 transition-transform"/>
         </motion.div>
