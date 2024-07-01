@@ -13,7 +13,8 @@ export default {
       fontFamily: {
         nfl: ["NFL", 'sans-serif'],
         roboto: ["Roboto", 'sans-serif'],
-        goulong: ["Goulong", 'sans-serif']
+        goulong: ["Goulong", 'sans-serif'],
+        arcade: ["Arcade", 'sans-serif'],
       }
     },
   },

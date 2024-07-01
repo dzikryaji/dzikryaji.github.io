@@ -12,6 +12,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Arcade';
+  src: url('../src/assets/fonts/ARCADE.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
 @tailwind base;
@@ -20,10 +27,14 @@
 
 * {
   scroll-behavior: smooth;
-  overflow-x: hidden;
   scrollbar-width: none;
   -webkit-scrollbar-width: none;
 }
+
+body {
+  overflow-x: hidden;
+}
+
 
 .fill-current {
   fill: currentColor;

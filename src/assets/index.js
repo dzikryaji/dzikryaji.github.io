@@ -21,6 +21,11 @@ import iconNpm from "./svg/icon_npm.svg"
 import iconGit from "./svg/icon_git.svg"
 import iconLaravel from "./svg/icon_laravel.svg"
 import iconFigma from "./svg/icon_figma.svg"
+import Asclepius from "./img/Asclepius.jpg"
+import Foodsnap from "./img/Foodsnap.jpg"
+import GithubUser from "./img/GithubUser.jpg"
+import MovieMania from "./img/MovieMania.jpg"
+import StoryApp from "./img/StoryApp.jpg"
 
 export {
   MotionIcon,
@@ -46,4 +51,9 @@ export {
   iconGit,
   iconLaravel,
   iconFigma,
+  Asclepius,
+  Foodsnap,
+  GithubUser,
+  MovieMania,
+  StoryApp
 }

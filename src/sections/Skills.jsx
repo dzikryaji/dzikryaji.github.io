@@ -17,7 +17,7 @@ const Skills = ({ control }) => {
   }, [isInView, control])
 
   return (
-    <section id="skills" className="mb-[100rem]">
+    <section id="skills" className="overflow-x-hidden">
       <motion.h1
         className="text-4xl md:text-5xl lg:text-6xl font-nfl uppercase px-4 lg:px-8"
         variants={{
@@ -49,7 +49,7 @@ const Skills = ({ control }) => {
             <img 
             src={skill.image} 
             alt={skill.title} 
-            className="w-[45%] sm:grayscale sm:opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100" 
+            className="w-[45%] grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100" 
             onMouseEnter={() => setActiveTitle(skill.title)} onMouseLeave={() => setActiveTitle('')} />
           </div>
         ))}

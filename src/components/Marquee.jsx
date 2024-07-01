@@ -4,14 +4,14 @@ import React from 'react';
 const Marquee = ({ isReverse, title }) => {
 
   const spanContent = (
-    <span className={"text-4xl md:text-7xl lg:text-8xl font-roboto font-bold uppercase mx-4 lg:mx-8"}>
+    <span className={"text-4xl md:text-5xl lg:text-6xl font-arcade uppercase mx-4 lg:mx-8"}>
       {title}
     </span>
   );
 
   return (
     <motion.div
-      className={`${title ? "opacity-100" : "opacity-0" } inline-block opacity-0 overflow-y-hidden transition-opacity whitespace-nowrap duration-200 ${isReverse ? "" : "mt-8"}`}
+      className={`${title ? "opacity-100" : "opacity-0" } inline-block opacity-0 overflow-x-hidden transition-opacity whitespace-nowrap duration-200 ${isReverse ? "" : "mt-8"}`}
       animate={{ x: isReverse ? ['0%', '-100%'] : ['-90%', '10%'] }}
       transition={{ repeat: Infinity, duration: 240, ease: 'linear' }}
     >
