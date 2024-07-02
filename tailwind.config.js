@@ -15,7 +15,11 @@ export default {
         roboto: ["Roboto", 'sans-serif'],
         goulong: ["Goulong", 'sans-serif'],
         arcade: ["Arcade", 'sans-serif'],
-      }
+        arcade_n: ["Arcade-N", 'sans-serif'],
+      },
+      backgroundImage: {
+        'gradient-to-transparent': 'linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%)',
+      },
     },
   },
   plugins: [],

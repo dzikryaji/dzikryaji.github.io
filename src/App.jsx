@@ -5,6 +5,8 @@ import SplashScreen from "./components/SplashScreen"
 import Skills from "./sections/Skills"
 import { motion, useAnimationControls } from "framer-motion"
 import Portfolio from "./sections/Portfolio"
+import Certificate from "./sections/Certificate"
+import Footer from "./sections/Footer"
 const App = () => {
   const control = useAnimationControls();
   return (
@@ -31,7 +33,9 @@ const App = () => {
         <Profile />
         <Skills control={control} />
         <Portfolio control={control} />
+        <Certificate />
       </motion.div>
+      <Footer />
     </>
   )
 }

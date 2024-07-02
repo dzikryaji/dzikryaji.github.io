@@ -26,6 +26,8 @@ import Foodsnap from "./img/Foodsnap.jpg"
 import GithubUser from "./img/GithubUser.jpg"
 import MovieMania from "./img/MovieMania.jpg"
 import StoryApp from "./img/StoryApp.jpg"
+import IconTextFooter from "./svg/IconTextFooter.svg"
+import barcode from "./svg/barcode.svg"
 
 export {
   MotionIcon,
@@ -55,5 +57,7 @@ export {
   Foodsnap,
   GithubUser,
   MovieMania,
-  StoryApp
+  StoryApp,
+  IconTextFooter,
+  barcode
 }

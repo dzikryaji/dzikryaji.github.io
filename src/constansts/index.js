@@ -187,3 +187,84 @@ export const portfolio = [
     url: "https://github.com/dzikryaji/movie-mania"
   },
 ];
+
+export const certificates = [
+  {
+    id: "0",
+    title: "Memulai Dasar Pemrograman untuk Menjadi Pengembang Software",
+    publisher: "Dicoding",
+    url: "https://www.dicoding.com/certificates/6RPNVOL98Z2M",
+  },
+  {
+    id: "1",
+    title: "Pengenalan ke Logika Pemrograman (Programming Logic 101)",
+    publisher: "Dicoding",
+    url: "https://www.dicoding.com/certificates/0LZ02E2NNX65"
+  },
+  {
+    id: "2",
+    title: "Belajar Prinsip Pemrograman SOLID",
+    publisher: "Dicoding",
+    url: "https://www.dicoding.com/certificates/N9ZOOGWDRZG5"
+  },
+  {
+    id: "3",
+    title: "Belajar Dasar Git dengan GitHub",
+    publisher: "Dicoding",
+    url: "https://www.dicoding.com/certificates/07Z6WEWMMZQR"
+  },
+  {
+    id: "4",
+    title: "Memulai Pemrograman dengan Kotlin",
+    publisher: "Dicoding",
+    url: "https://www.dicoding.com/certificates/NVP77E7NVPR0"
+  },
+  {
+    id: "5",
+    title: "Belajar Membuat Aplikasi Android untuk Pemula",
+    publisher: "Dicoding",
+    url: "https://www.dicoding.com/certificates/1OP8NOGG8XQK",
+  },
+  {
+    id: "6",
+    title: "Belajar Fundamental Aplikasi Android",
+    publisher: "Dicoding",
+    url: "https://www.dicoding.com/certificates/EYX4043M6PDL"
+  },
+  {
+    id: "7",
+    title: "Belajar Penerapan Machine Learning untuk Android",
+    publisher: "Dicoding",
+    url: "https://www.dicoding.com/certificates/L4PQ14802XO1"
+  },
+  {
+    id: "8",
+    title: "Belajar Pengembangan Aplikasi Android Intermediate",
+    publisher: "Dicoding",
+    url: "https://www.dicoding.com/certificates/98XWL2Q14ZM3"
+  },
+  {
+    id: "9",
+    title: "Belajar Dasar AI",
+    publisher: "Dicoding",
+    url: "https://www.dicoding.com/certificates/MRZME5J9RPYQ"
+  },
+  {
+    id: "10",
+    title: "Belajar Dasar Pemrograman JavaScript",
+    publisher: "Dicoding",
+    url: "https://www.dicoding.com/certificates/1OP8WN9W8XQK"
+  },
+  {
+    id: "11",
+    title: "Belajar Dasar Pemrograman Web",
+    publisher: "Dicoding",
+    url: "https://www.dicoding.com/certificates/L4PQ16LG2XO1"
+  },
+  {
+    id: "12",
+    title: "Belajar Membuat Front-End Web untuk Pemula",
+    publisher: "Dicoding",
+    url: "https://www.dicoding.com/certificates/N9ZOMMLYRPG5"
+  },
+];

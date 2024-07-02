@@ -13,9 +13,9 @@ const Marquee = ({ isReverse, title }) => {
     <motion.div
       className={`${title ? "opacity-100" : "opacity-0" } inline-block opacity-0 overflow-x-hidden transition-opacity whitespace-nowrap duration-200 ${isReverse ? "" : "mt-8"}`}
       animate={{ x: isReverse ? ['0%', '-100%'] : ['-90%', '10%'] }}
-      transition={{ repeat: Infinity, duration: 240, ease: 'linear' }}
+      transition={{ repeat: Infinity, duration: 600, ease: 'linear' }}
     >
-      {Array.from({ length: 100 }, (_, index) => (
+      {Array.from({ length: 200 }, (_, index) => (
         <React.Fragment key={index}>
           {spanContent}
         </React.Fragment>
