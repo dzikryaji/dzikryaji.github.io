@@ -57,7 +57,7 @@ export const socialMedia = [
     id: "0",
     title: "Email",
     img: EmailSvg,
-    url: "mailto:dzikryaji07@gmail.com"
+    url: "mailto:dzikryaji@proton.me"
   },
   {
     id: "1",
