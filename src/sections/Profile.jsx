@@ -11,7 +11,7 @@ const Profile = () => {
         </Reveal>
         <Reveal>
           <p className="text-md md:text-lg lg:text-xl font-roboto font-light uppercase">
-            My name is Dzikry Aji Santoso. I am an Information Systems Student at Brawijaya University, specializing in Android and Front End development. I have hands-on experience with Kotlin, Firebase, Room, and Retrofit in MVVM Architecture for Android development. Additionally, I am skilled in front-end technologies such as React and Tailwind CSS.
+            My name is Dzikry Aji Santoso. I am a fresh graduate in Information Systems from Universitas Brawijaya with a strong passion for technology, particularly in Android and Web Development. I have hands-on experience with Kotlin, Firebase, Room, and Retrofit in MVVM Architecture for Android development. Additionally, I am skilled in front-end technologies such as React and Tailwind CSS.
           </p>
         </Reveal>
         <Reveal>
