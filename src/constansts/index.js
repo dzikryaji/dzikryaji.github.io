@@ -21,7 +21,7 @@ import {
   Foodsnap,
   Asclepius,
   GithubUser,
-  MovieMania,
+  PawsAndFocus,
 } from "../assets";
 
 export const navigation = [
@@ -158,33 +158,33 @@ export const skills = [
 export const portfolio = [
   {
     id: "0",
+    title: "Paws & Focus",
+    img: PawsAndFocus,
+    url: "https://github.com/dzikryaji/it-fest"
+  },
+  {
+    id: "1",
     title: "FoodSnap",
     img: Foodsnap,
     url: "https://github.com/Food-snap/mobile-app"
   },
   {
-    id: "1",
+    id: "2",
     title: "Story App",
     img: StoryApp,
     url: "https://github.com/dzikryaji/story-app"
   },
   {
-    id: "2",
+    id: "3",
     title: "Asclepius",
     img: Asclepius,
     url: "https://github.com/dzikryaji/asclepius"
   },
   {
-    id: "3",
+    id: "4",
     title: "Github User",
     img: GithubUser,
     url: "https://github.com/dzikryaji/github-user"
-  },
-  {
-    id: "4",
-    title: "Movie Mania",
-    img: MovieMania,
-    url: "https://github.com/dzikryaji/movie-mania"
   },
 ];
 

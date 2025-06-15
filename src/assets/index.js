@@ -22,9 +22,9 @@ import iconGit from "./svg/icon_git.svg"
 import iconLaravel from "./svg/icon_laravel.svg"
 import iconFigma from "./svg/icon_figma.svg"
 import Asclepius from "./img/Asclepius.jpg"
+import PawsAndFocus from "./img/PawsAndFocus.jpeg"
 import Foodsnap from "./img/Foodsnap.jpg"
 import GithubUser from "./img/GithubUser.jpg"
-import MovieMania from "./img/MovieMania.jpg"
 import StoryApp from "./img/StoryApp.jpg"
 import IconTextFooter from "./svg/IconTextFooter.svg"
 import barcode from "./svg/barcode.svg"
@@ -53,10 +53,10 @@ export {
   iconGit,
   iconLaravel,
   iconFigma,
+  PawsAndFocus,
   Asclepius,
   Foodsnap,
   GithubUser,
-  MovieMania,
   StoryApp,
   IconTextFooter,
   barcode
